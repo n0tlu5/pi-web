@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "/opt/omo-plugin"
+  ],
+  "defaultProvider": "cpa",
+  "defaultModel": "gemini-3.8-flash-high",
+  "defaultThinkingLevel": "high",
+  "enabledModels": [
+    "cpa/gemini-3.8-flash-high",
+    "cpa/*"
+  ],
+  "theme": "dark"
+}

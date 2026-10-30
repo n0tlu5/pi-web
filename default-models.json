@@ -1,0 +1,143 @@
+{
+  "providers": {
+    "cpa": {
+      "baseUrl": "http://host.containers.internal:8317/v1",
+      "api": "openai-completions",
+      "apiKey": "sk-hn1KpuD5U35lGZRWVNV9e9smmwRBohRL46nb8pXPf8eRulAP",
+      "models": [
+        {
+          "id": "gemini-3.8-flash-high",
+          "name": "gemini-3.8-flash-high",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3.7-flash-high",
+          "name": "gemini-3.7-flash-high",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3.6-flash-high",
+          "name": "gemini-3.6-flash-high",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3-flash",
+          "name": "gemini-3-flash",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3.5-flash-lite",
+          "name": "gemini-3.5-flash-lite",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3.1-flash-lite",
+          "name": "gemini-3.1-flash-lite",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gemini-3.1-pro-low",
+          "name": "gemini-3.1-pro-low",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "claude-opus-5-5",
+          "name": "claude-opus-5-5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "claude-opus-5",
+          "name": "claude-opus-5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "claude-sonnet-5",
+          "name": "claude-sonnet-5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "claude-sonnet-4-6",
+          "name": "claude-sonnet-4-6",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "claude-haiku-4-5-20251001",
+          "name": "claude-haiku-4-5-20251001",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        }
+      ]
+    }
+  }
+}

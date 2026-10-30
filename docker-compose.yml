@@ -1,0 +1,31 @@
+services:
+  pi-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: localhost/pi-web:latest
+    container_name: pi-web
+    restart: unless-stopped
+    ports:
+      - "3088:3088"
+    extra_hosts:
+      - "host.containers.internal:host-gateway"
+    environment:
+      - PORT=3088
+      - PI_WEB_HOSTNAME=0.0.0.0
+      - PI_WEB_NO_OPEN=1
+      - PI_CODING_AGENT_DIR=/data/agent
+      - PI_WEB_ALLOWED_HOSTS=minis-pi.n0tlu5.com
+    volumes:
+      - pi-web-data:/data
+      - pi-web-workspace:/workspace
+      - pi-web-omo:/home/node/.omo
+    working_dir: /workspace
+
+volumes:
+  pi-web-data:
+    name: pi-web-data
+  pi-web-workspace:
+    name: pi-web-workspace
+  pi-web-omo:
+    name: pi-web-omo

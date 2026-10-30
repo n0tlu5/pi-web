@@ -1,0 +1,66 @@
+// OMO configuration - pinned to CPA gemini-3.8-flash-high
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/omo.schema.json",
+  "model_profile": "cpa/gemini-3.8-flash-high",
+  "[opencode]": {
+    "model_fallback": false,
+    "hashline_edit": true,
+    "agents": {
+      "sisyphus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "hephaestus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "prometheus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "atlas": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "sisyphus-junior": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "oracle": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "librarian": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "explore": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "multimodal-looker": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "metis": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "momus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" }
+    },
+    "categories": {
+      "architect": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "artistry": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "deep-high": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "deep-low": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "quick": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "ultrabrain": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "unspecified-high": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "unspecified-low": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "visual-engineering": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "writing": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" }
+    }
+  },
+  "[native]": {
+    "agents": {
+      "sisyphus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "hephaestus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "prometheus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "atlas": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "sisyphus-junior": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "oracle": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "librarian": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "explore": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "multimodal-looker": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "metis": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "momus": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "omo-native-code-reviewer": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "omo-native-gate-reviewer": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "omo-native-qa-executor": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "plan-consultant": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "plan-reviewer": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" }
+    },
+    "categories": {
+      "architect": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "artistry": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "deep-high": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "deep-low": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "quick": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "ultrabrain": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "unspecified-high": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "unspecified-low": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "visual-engineering": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" },
+      "writing": { "model": "cpa/gemini-3.8-flash-high", "reasoning": "high" }
+    }
+  }
+}
