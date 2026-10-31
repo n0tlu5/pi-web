@@ -17,6 +17,11 @@ RUN npm install -g --fetch-retries=5 \
 COPY setup-omo.js /tmp/setup-omo.js
 RUN node /tmp/setup-omo.js && rm /tmp/setup-omo.js
 
+COPY --from=docker.io/oven/bun:latest /usr/local/bin/bun /usr/local/bin/bun
+RUN ln -sf /usr/local/bin/bun /usr/local/bin/bunx
+
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
+
 RUN ln -sf /usr/local/bin/omo /usr/local/bin/pi
 
 RUN mkdir -p /etc/pi-web /data /workspace /opt/omo-plugin /home/node/.omo && \

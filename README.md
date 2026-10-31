@@ -8,6 +8,7 @@ A containerized deployment of [Pi Web](https://github.com/agegr/pi-web) running 
 - **Container Name**: `pi-web`
 - **Image**: `localhost/pi-web:latest`
 - **Package**: `@agegr/pi-web@latest` with `@earendil-works/pi-coding-agent@latest`
+- **Developer Tools**: `bun`, `bunx`, `uv`, `uvx`, `python3`, `git`, `curl` available system-wide in `/usr/local/bin`
 - **Agent Orchestrator**: **OmO** (Sisyphus orchestrator, task fan-out, categories, subagents, workflows, LSP tools, memory)
 - **CPA Service**: Connected to host CPA proxy via `http://host.containers.internal:8317/v1`
 - **Default Model**: `gemini-3.8-flash-high` (provider `cpa`)
